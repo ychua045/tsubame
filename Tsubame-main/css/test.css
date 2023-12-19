@@ -1,0 +1,9 @@
+.gmap {
+    display: flex;
+    flex-direction: column;
+/*    justify-content: center;
+*/    align-items: center;
+    margin: auto;
+    height: 880px;
+    width: 880px;
+}}

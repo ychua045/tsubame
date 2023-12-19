@@ -1,0 +1,62 @@
+/*gallery.css*/
+@import "style.css";
+
+
+.container-gallery{
+	background-color: #000;
+/*	height: 100px;
+*/	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:100vw;
+/*	gap: 10px;*/
+}
+
+.container-gallery-container {
+    background-color: #000;
+    margin:0px;
+/*    color: #1D1A1A;*/
+    padding: 0px; /* Keep top and bottom padding, remove left and right */
+    min-height: 100vh;
+	width:100%;
+}
+
+.container-gallery-labelcont{
+	background-color: #000;
+	width:100%;
+	margin: 0;	
+	padding-top: 100px;
+}
+
+#gallery-pix {
+	width: 400px;
+	height: 250px;
+}
+
+.tz-gallery {
+    padding: 0px 50px 80px 50px;
+    background-color: #OOOOOO; /* Set the background to transparent */
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 10px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}

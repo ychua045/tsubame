@@ -1,0 +1,125 @@
+@import "reservation.css";
+
+.container-contact {
+	background: url(../images/contact/contactlantern.png), lightgray 50% / cover no-repeat;
+	height: 1000px;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	padding-top: 60px;
+}
+
+.contact {
+	width: 100%;
+	display: flex;
+	gap: 50px;
+	margin: 50px;
+	justify-content: center;
+	padding: 80px 100px;
+}
+
+.contact-details {
+	display: flex;
+	gap: 20px;
+	margin: auto;
+	justify-content: center;
+	flex-direction: column;
+/*	align-items: flex-start;
+	display: flex;
+	gap: 6%;
+	margin: auto;*/
+}
+
+#details-header {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align: center;
+}
+
+#details-deets {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 20px;
+	align-items: start;
+}
+
+.reservedsec {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+  padding: 0;
+  align-items: center;
+}
+
+.contactdetails{
+  font-size: 14px;
+	font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: normal;
+  color: #FFF;
+  text-align: center;
+}
+
+.contactlabels{
+  padding-top: 5px;
+  color: #dbd3d3;
+  font-size: 14px;
+	font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+}
+
+.gmap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(67, 4, 4, 0.20);
+}
+
+.contact-us {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	padding: 50px 50px;
+	flex-shrink: 0;
+	background: rgba(67, 4, 4, 0.76);
+	align-items: center;
+	margin: auto;
+	width: 50%;
+}
+
+#contact-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	padding-bottom: 30px;
+	gap: 20px;
+}
+
+.reset {
+	width: 120px;	
+}
+
+.submit {
+	width: 210px;
+}
